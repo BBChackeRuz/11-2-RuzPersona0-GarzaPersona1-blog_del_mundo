@@ -1,17 +1,49 @@
-body{
+body {
     color: #FFFFFF;
     background-color: black;
 }
-article{
-background-color: rgb(44, 43, 43);
+
+article {
+    background-color: rgb(44, 43, 43);
+    padding: 1.5rem;
 }
 
-.resaltado{
-    color: yellow;
+.borde {
+    border-bottom: solid #FFFFFF 1px;
 }
 
-
-#titulo_del_blog{
+#titulo_del_blog {
     text-align: center;
     font-size: 3rem;
 }
+
+.resaltado {
+    color: yellow;
+}
+
+nav>ul>li {
+    list-style: none;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+}
+
+#footer_blog {
+    margin: 2rem;
+}
+
+.ilustracion {
+    border: solid white 4px;
+    display: inline-block;
+}
+
+.ilustracion figcaption {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-style: italic;
+}
+
+
+
+
